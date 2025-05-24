@@ -3,8 +3,9 @@ const repoName = 'mcq-app';
 
 const nextConfig = {
     output: 'export',
-    basePath: `/${repoName}`,
-    assetPrefix: `/${repoName}/`,
+    distDir: 'out',
+    basePath: process.env.NODE_ENV === 'production' ? `/${repoName}` : "",
+    assetPrefix: "",
 };
 
 export default nextConfig;
