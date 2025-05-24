@@ -2,7 +2,7 @@
   "name": "mcq-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sachinrajput76.github.io/mcq-app",
+  "homepage": "https://sachinrajput76.github.io/mcq-app",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
