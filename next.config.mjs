@@ -5,7 +5,7 @@ const nextConfig = {
     output: 'export',
     distDir: 'out',
     basePath: process.env.NODE_ENV === 'production' ? `/${repoName}` : "",
-    assetPrefix: "",
+    assetPrefix: process.env.NODE_ENV === 'production' ? `/${repoName}` : "",
 };
 
 export default nextConfig;
