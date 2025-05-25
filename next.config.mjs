@@ -1,7 +1,5 @@
-import next from 'next';
-const { NextConfig } = next;
-let nextConfig = NextConfig;
-nextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
     output: 'export',
     basePath: '',
     assetPrefix: '',
