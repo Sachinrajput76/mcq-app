@@ -1,9 +1,10 @@
-{ import('next').NextConfig }
-let nextConfig = NextConfig();
+import next from 'next';
+const { NextConfig } = next;
+let nextConfig = NextConfig;
 nextConfig = {
     output: 'export',
-    basePath: '/mcq-app',
-    assetPrefix: '/mcq-app/',
+    basePath: '/',
+    assetPrefix: '',
 };
 
 export default nextConfig;
