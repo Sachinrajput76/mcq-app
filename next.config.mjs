@@ -1,11 +1,9 @@
-import { NextConfig } from "next";
-
-const NextConfig = {
-    /* config options here */
+{ import('next').NextConfig }
+let nextConfig = NextConfig();
+nextConfig = {
     output: 'export',
-    distDir: 'out',
-    basePath: process.env.NODE_ENV === 'production' ? '/mcq-app' : '',
-    assetPrefix: '',
+    basePath: '/mcq-app',
+    assetPrefix: '/mcq-app/',
 };
 
-export default NextConfig;
+export default nextConfig;
