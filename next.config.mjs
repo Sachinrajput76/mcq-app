@@ -3,7 +3,7 @@ const { NextConfig } = next;
 let nextConfig = NextConfig;
 nextConfig = {
     output: 'export',
-    basePath: '/',
+    basePath: '',
     assetPrefix: '',
 };
 
