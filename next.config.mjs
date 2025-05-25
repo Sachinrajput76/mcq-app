@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
-const repoName = 'mcqs-app';
+const repoName = 'mcq-app';
 
 const nextConfig = {
     output: 'export',
     basePath: `/${repoName}`,
-    assetPrefix: `/${repoName}/`,
+    assetPrefix: "",
 };
 
 export default nextConfig;
